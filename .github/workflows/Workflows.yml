@@ -5,7 +5,8 @@
   on: 
     issue_comment:
     types: [created, edited]
-  jobs: soichisumi/issue-copy-action@v0.2.0
+  #uses: soichisumi/issue-copy-action@v0.2.0
+  uses: soichisumi/issue-copy-action@0da68355f63b8318c7a93d0cecd4578909544bda
   with:
     # Github token
     githubToken: 88a4b56c370db806b9b9433aca8575173e8ec63e
