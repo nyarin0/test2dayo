@@ -4,7 +4,7 @@
   uses: soichisumi/issue-copy-action@v0.2.0
   with:
     # Github token
-    githubToken: ${{ secrets.GITHUB_TOKEN }}
+    githubToken: 88a4b56c370db806b9b9433aca8575173e8ec63e
     # Repository to which generated issue is copied. format: $OWNER/$REPO_NAME
     targetRepository: nyarin0/testdayo
     # Keyword to trigger this action. The action is executed in the case of lowercased issue comment matched with lowercased keyword.
